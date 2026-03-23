@@ -1,11 +1,8 @@
 # FinRAG: SEC 10-K Financial RAG
 
-[![Open in Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/Unspoiled-Egg/Fin-RAG)
-
 FinRAG is a hybrid RAG system specifically designed for analyzing SEC 10-K financial filings. It combines the power of knowledge graphs (Neo4j) and vector databases (Weaviate).
 
-![FinRAG on Huggingface-Space](assets/gradio.png)
-![FinRAG on CLI](assets/cli.png)
+![FinRAG gradio UI](assets/gradio.png)
 
 ## Architecture
 
@@ -46,6 +43,16 @@ The system operates in two main phases: **Ingestion** and **Query Execution**.
 5. **Generate**: A prompt is built with the retrieved context and sent to Groq.
 
 ## Commands
+
+### Installation
+```bash
+uv sync
+```
+
+### Virtual Environment Activation
+```bash
+source .venv/bin/activate
+```
 
 ### Ingestion
 ```bash

@@ -1,0 +1,12 @@
+{
+  "meta_10K_2025": {
+    "chunked": false,
+    "neo4j": true,
+    "weaviate": true
+  },
+  "nvda_10K_2025": {
+    "chunked": false,
+    "neo4j": true,
+    "weaviate": true
+  }
+}
